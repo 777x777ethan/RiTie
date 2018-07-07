@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body{
+    font-family: 'cwTeXYen',sans-serif;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: rgb(253,253,253);
+}
+h3{
+    margin: 0;
+    padding: 5px 0;
+}
+p,span{
+margin: 0;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+button{
+    cursor:pointer;
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;  
+    font-size: 16px;
+    border:none;
+    background-color: #00000000;
+    padding: 0px;
+}
+
+input:focus, textarea:focus,button:focus {
+    outline: none;
+}
+input::-ms-clear {
+    display: none;    
+}
+.search_room{
+    background-color: #ffffff;
+    border-bottom: #a3a3a3 1px solid;
+    width:100vw;
+    box-shadow:0px 4px 10px rgba(20%,20%,40%,0.5);
+}
+.search_icon{
+    position: absolute;
+}
+.input_search{
+    -webkit-appearance: none;
+    border: none;
+    width: 100vw;
+    position: relative;
+    background-color: #ffffff00;
+    padding-left: 40px;
+    height: 38px;
+    font-family: 'cwTeXYen',sans-serif;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.input_search:focus{
+    border-top:1px #04a8d1 dashed;
+    border-bottom:1px #04a8d1 dashed;
+    margin: 2px ;
+    height: 34px;
+    width: 100vw;
+}
+.block{
+
+}
+.main_block{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top:70vh;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.block_01{
+    position: absolute;
+    overflow: hidden;
+    width: 180px;
+    height: 120px;
+    background-color: rgba(224, 224, 224, 0.3);
+    border-radius: 3px;
+    left: -15px;
+    top:-10px;
+    animation: block_01 2s ease infinite;
+}
+@keyframes block_01 {
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+    30% {
+        transform: scale(0.8, 0.8);
+    }
+}
+.block_02{
+    position: absolute;
+    overflow: hidden;
+    width: 210px;
+    height: 140px;
+    background-color: rgba(224, 224, 224, 0.3);
+    border-radius: 3px;
+    left: -30px;
+    top:-20px;
+    animation: block_02 2s ease infinite;
+}
+@keyframes block_02 {
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+    40% {
+        transform: scale(0.6, 0.6);
+    }
+}
+.block_03{
+    position: absolute;
+    overflow: hidden;
+    width: 240px;
+    height: 160px;
+    background-color: rgba(224, 224, 224, 0.3);
+    border-radius: 3px;
+    left: -45px;
+    top:-30px;
+    animation: block_03 2s ease infinite;
+}
+@keyframes block_03 {
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(0.5, 0.5);
+    }
+}
+.block_04{
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+    border: 0px #666666 solid;
+    border-radius: 3px;
+    background-color: #fdfdfd;
+    animation: block_04 2s ease infinite;}
+@keyframes block_04 {
+    0%,
+    100% {
+        transform: scale(1, 1);
+        border: 1px #666666 solid;
+    }
+    20% {
+        transform: scale(1.1, 1.1);
+        border: 2px #666666 solid;
+    }
+  }
+.block_04 a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0px;
+    cursor: pointer;
+}
+.choose_block{
+    visibility:hidden;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top:70vh;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.cblock_01{
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+    border: 1px #ffffff solid;
+    border-radius: 3px;
+}
+.cblock_01 a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.cblock_01::before, .cblock_01::after{
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+    height: 1px;
+    background-color: #ffffff;
+    left: -25px;
+    transform: rotate(45deg);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    width: 100vw;
+    border-radius: 3px;
+    background-color: rgba(4, 168, 209, 0.45);
+    text-align: center;
+    color: white;
+
+}
+
