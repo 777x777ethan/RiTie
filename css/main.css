@@ -213,15 +213,5 @@ input::-ms-clear {
     transform: rotate(45deg);
 }
 
-.footer{
-    position: absolute;
-    bottom: 0px;
-    height: 20px;
-    width: 100vw;
-    border-radius: 3px;
-    background-color: rgba(4, 168, 209, 0.45);
-    text-align: center;
-    color: white;
 
-}
 
