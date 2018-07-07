@@ -81,9 +81,9 @@ input::-ms-clear {
 .main_block{
     width: 150px;
     height: 100px;
-    margin: auto;
+    margin: 0px auto;
     position: absolute;
-    top:70vh;
+    top:80vh;
     bottom: 0px;
     right: 0px;
     left: 0px;
@@ -179,7 +179,7 @@ input::-ms-clear {
     visibility:hidden;
     width: 150px;
     height: 100px;
-    margin: auto;
+    margin: 0px auto;
     position: absolute;
     top:70vh;
     bottom: 0px;
