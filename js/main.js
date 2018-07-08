@@ -49,6 +49,10 @@ function block_close(){
     var i=parseInt(color[4]+color[5]+color[6]);
     var bodyId=window.setInterval(function(){
         if(i>=253|| run==1){
+            var type_margin=document.getElementsByClassName("c_type");
+            for(var x=0;x < type_margin.length;x++){
+                type_margin[x].style.margin="20px auto";
+            }
             window.clearInterval(bodyId);
             return;
         }

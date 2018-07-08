@@ -51,6 +51,7 @@ input::-ms-clear {
     width:100vw;
     box-shadow:0px 4px 10px rgba(20%,20%,40%,0.5);
     position: fixed;
+    z-index: 999;
 }
 .search_icon{
     position: absolute;
@@ -85,7 +86,7 @@ input::-ms-clear {
     height: 100px;
     margin: 0px auto;
     position: absolute;
-    top:80vh;
+    top:70vh;
     right: 0px;
     left: 0px;
 }
@@ -167,14 +168,14 @@ input::-ms-clear {
 }
 .choose_block{
     visibility:hidden;
-    height: 100vh;
+    margin: 0px 10px;
 }
 .close_block{
     width: 150px;
     height: 100px;
     margin: 0px auto;
     position: absolute;
-    top:80vh;
+    top:70vh;
     right: 0px;
     left: 0px;
 }
