@@ -77,7 +77,8 @@ input::-ms-clear {
     width: 100vw;
 }
 .block{
-
+    top:40px;
+    position: relative;
 }
 .main_block{
     width: 150px;
