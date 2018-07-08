@@ -50,6 +50,7 @@ input::-ms-clear {
     border-bottom: #a3a3a3 1px solid;
     width:100vw;
     box-shadow:0px 4px 10px rgba(20%,20%,40%,0.5);
+    position: fixed;
 }
 .search_icon{
     position: absolute;
