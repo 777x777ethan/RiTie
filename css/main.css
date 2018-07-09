@@ -230,5 +230,6 @@ input::-ms-clear {
 .c_type a{
     color: #ffffff;
     display: block;
-    margin: 19px auto;
+    padding: 19px 0px;
+    cursor: pointer;
 }
